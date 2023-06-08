@@ -1,0 +1,37 @@
+.app{
+    background-color: #98d4f8;
+}
+
+.list{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px dashed #000000;
+    min-height: 300px;
+    margin-top: 10px;
+}
+
+.list-item{
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: move;
+}
+
+.hold{
+    border: solid rgb(0, 0, 0) 4px;
+}
+
+.success {
+    background-color: #c5f5c3;
+}
+
+.reset {
+    margin-top: 40px;
+    color: bisque;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background:#000000;
+    transition: all 0.2s ease;
+}
